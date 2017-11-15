@@ -54,6 +54,7 @@ function Logistics($a, $b, $c, $d){
 		  Pelnas: $B </br>";
 }
 
+
 pitagor(10, 7);
 rectangleArea(10, 7);
 squareArea(5);
