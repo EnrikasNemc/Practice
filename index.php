@@ -166,7 +166,6 @@ function planefix($costs, $margin){
 	$h = (($BUSINESS_CLASS*$PRICE_BUSINESS)*$FILL_BUSINESS)*$margin;
 	$i = (($ECONOMY_CLASS*$PRICE_ECONOMY)*$FILL_ECONOMY)*$margin;
 
-
 	$d= $a+$b+$c;
 	$e= $A + $B + $C;
 	$E = $e - $costs;
@@ -220,4 +219,4 @@ echo "</br>";
 plane_2(250000, 0.3);
 echo "</br>";
 echo "</br>";
-planefix(250000, 0.7);
+planefix(250000, 0.3);
